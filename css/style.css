@@ -4,3 +4,41 @@
     box-sizing: border-box;
 }
 
+header {
+
+    height: 100px;
+    background-color: yellow;
+}
+
+main {
+
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+
+    height: 65px;
+    background-color: yellow;
+}
+
+.column1 {
+
+    background-color: aqua;
+    height: 60%;
+    width: 20%;
+    margin-right: 10px;
+
+
+}
+
+.column2 {
+
+    background-color: aqua;
+    height: 100%;
+    width: 80%;
+
+
+}
