@@ -4,41 +4,48 @@
     box-sizing: border-box;
 }
 
+body {
+
+    margin: 10px;
+}
 header {
 
     height: 100px;
-    background-color: yellow;
+    background-color: pink;
 }
 
 main {
 
-    height: 800px;
+    height: 300px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    gap: 15px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 
 footer {
 
     height: 65px;
-    background-color: yellow;
+    background-color: pink;
 }
 
 .column1 {
 
-    background-color: aqua;
+    background-color: blue;
     height: 60%;
-    width: 20%;
-    margin-right: 10px;
+    width: 40%;
+
 
 
 }
 
 .column2 {
 
-    background-color: aqua;
+    background-color: violet;
     height: 100%;
-    width: 80%;
+    width: 60%;
 
 
 }
